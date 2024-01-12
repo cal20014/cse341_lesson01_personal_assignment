@@ -1,5 +1,3 @@
-# cse341_lesson01_personal_assignment
-
 # CSE341 Lesson 01 Personal Assignment
 
 ## Overview
