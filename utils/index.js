@@ -5,14 +5,15 @@
  *************************/
 
 const utils = {};
-// const faker = require("faker");
+const Chance = require("chance");
+const chance = new Chance();
 
-// utils.getName = () => {
-//   let names = [];
-//   for (let i = 0; i < 10; i++) {
-//     names.push(faker.name.findName());
-//   }
-//   return JSON.stringify(names);
-// };
+utils.getName = () => {
+  let names = [];
+  for (let i = 0; i < 10; i++) {
+    names.push(chance.name());
+  }
+  return JSON.stringify(names);
+};
 
 module.exports = utils;

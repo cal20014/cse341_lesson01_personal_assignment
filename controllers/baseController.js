@@ -9,8 +9,9 @@ const utils = require("../utils");
 
 // Build base route
 baseController.buildBaseRoute = (req, res) => {
-  //   const names = utils.getName();
-  res.send("Miriam Call");
+  const names = utils.getName();
+  // res.send("Miriam Call");
+  res.send(names);
 };
 
 module.exports = baseController;
