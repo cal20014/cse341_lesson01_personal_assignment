@@ -26,5 +26,3 @@ By the end of this assignment, the student will be able to:
 6. Publish your project to Render.
 7. Create a brief video demonstrating the functionality of your assignment and upload it to YouTube (public or unlisted).
 8. Submit GitHub, Render, and YouTube links in I-Learn.
-
-Please review the rubric in I-Learn to understand how this assignment will be graded.
